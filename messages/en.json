@@ -1,0 +1,52 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+
+  "common": {
+    "welcome": "Welcome",
+    "login": "Login",
+    "register": "Register",
+    "desc": "The customer is very important, and the customer will follow. But at the same time, it happened with some great effort and fatigue. To get to the finer details, no one should engage in any type of work unless he benefits from it.",
+    "getStart": "Get Start",
+    "home": "Home",
+    "takeQuiz": "Take Quiz",
+    "listQuiz": "List Quiz",
+    "signOut": "Sign Out",
+    "signIn": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "loginDesc": "Please Login to Get Started!",
+    "rememberMe": "Remember Me",
+    "forgotPassword": "Forgot password?",
+    "mustRegister": "Don't Have an Account?",
+    "inputEmail": "Input your email!",
+    "inputPassword": "Input your password!",
+    "registerDesc": "Please Register to Get Started!",
+    "fullName": "Full Name",
+    "inputName": "Input your name!",
+    "retypePassword": "Retype Password",
+    "inputPasswordAgain": "Input your password again!",
+    "agreeTos": "I Agree with all terms of service.",
+    "mustSignIn": "Already Have an Account?",
+    "questionText": "Question",
+    "answerText": "Answer",
+    "correctAnswer": "Correct Answer",
+    "actionText": "Action",
+    "noQuestions": "No questions available",
+    "editText": "Edit",
+    "deleteText": "Delete",
+    "manageQuestion": "Manage Question",
+    "yourScore": "Your Score",
+    "testAgain": "Test Again",
+    "addQuestion": "Add Question",
+    "quizTitle": "Quiz Title",
+    "submit": "submit",
+    "updateQuiz": "Update Quiz",
+    "signUp": "Sign Up"
+  },
+  "Footer": {
+    "copyright": "© 2024 Quiz App. All Right Reserved"
+  }
+}
