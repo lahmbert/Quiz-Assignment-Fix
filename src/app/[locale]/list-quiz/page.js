@@ -41,6 +41,7 @@ export default function ManageQuiz() {
   }, [router]);
 
   const handleEdit = (quizId) => {
+    if (!quizId) return; // Ensure quizId is valid
     router.push(`/manage-quiz?id=${quizId}`);
   };
 
