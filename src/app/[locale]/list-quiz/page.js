@@ -11,6 +11,7 @@ export default function ManageQuiz() {
   const router = useRouter();
   const [questions, setQuestions] = useState([]);
   const [isOpenBars, setIsOpenBars] = useState(false);
+  let locale = Cookies.get('NEXT_LOCALE') || 'en';
 
   useEffect(() => {
     const checkUser = async () => {
@@ -42,7 +43,7 @@ export default function ManageQuiz() {
 
   const handleEdit = (quizId) => {
     if (!quizId) return; // Ensure quizId is valid
-    router.push(`/manage-quiz?id=${quizId}`);
+    router.push(`/${locale}/manage-quiz?id=${quizId}`);
   };
 
   const handleDelete = async (id) => {
@@ -116,7 +117,7 @@ export default function ManageQuiz() {
       console.error('Unexpected error while deleting question:', err);
     }
   };
-  let locale = Cookies.get('NEXT_LOCALE') || 'en';
+
   const handleAddQuestion = () => {
     router.push(`/${locale}/manage-quiz`);
   };
